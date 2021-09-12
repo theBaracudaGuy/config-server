@@ -1,6 +1,4 @@
 eureka:
-  instance:
-    hostname: discovery-service
   client:
     registerWithEureka: true
     fetchRegistry: true
