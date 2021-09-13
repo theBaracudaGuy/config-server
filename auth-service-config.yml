@@ -9,6 +9,6 @@ spring:
         dialect: org.hibernate.dialect.PostgreSQL10Dialect
   datasource:
     driver-class-name: org.postgresql.Driver
-    url: jdbc:postgresql://discovery-service:5432/auth_db
+    url: jdbc:postgresql://${AUTH_DB_HOST:localhost}:5432/auth_db
     username: postgres
     password: postgres
