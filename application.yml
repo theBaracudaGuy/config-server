@@ -1,4 +1,6 @@
 eureka:
+  instance:
+    hostname: ${CONFIG_SERVER_URL:localhost}
   client:
     registerWithEureka: true
     fetchRegistry: true
